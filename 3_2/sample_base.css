@@ -1,0 +1,239 @@
+@charset "UTF-8";
+/* reset */
+body, h1, h2, h3, h4, h5, h6, p, address,
+ul, ol, li, dl, dt, dd, img, form, table, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: none;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 100%;
+	text-align: left;
+	list-style-type: none;
+	border-collapse: collapse;
+}
+
+textarea { font-size: 100%; vertical-align:middle;}
+img { border-style: none; display: block; }
+hr { display: none; }
+em{font-style: normal}
+input{line-height:auto;vertical-align:middle;}
+strong.more{color:#c30}
+a{text-decoration: none;}
+
+html {
+
+}
+
+body {
+	font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+}
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* 上の部分は気にせずここから書く */
+.wrapper{
+    margin-right: auto;
+    margin-left: auto;
+}
+.bold{
+    font-weight: bold;
+    text-align: center;
+}
+.header_a {
+    width: 1280px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    font-size: 20px;
+}
+#logo{
+    margin:10px;
+    width: 35px;
+    height:auto;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu{
+    list-style: none;
+    font-size: 10px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu li{
+    display: block
+    align: center;
+    width: 45px;
+}
+.header_b{
+    height: 420px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./images/bg.png");
+    background-size: cover;
+}
+.header_b_contents{
+    width: 350px;
+    height:150;
+    margin-right: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#header2_p{
+    font-size: 18px;
+    color: white;
+    margin:auto;
+}
+#main{
+    width: auto;
+    height: 350px;
+}
+.button{
+    width: 200px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 50px;
+    font-size: 10px;
+    border-radius: 150px;
+    background-color: white;
+}
+.main_contents{
+    width: 1280px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.news h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+.contents h3 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+.border {
+    padding-bottom: 6px;
+    border-bottom: solid 2px red;
+}
+.news_pic {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+#news1, #news2, #news3 {
+    margin: 18px;
+    width: 300px;
+    height: auto;
+}
+.about_us {
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 970px;
+    height: 260px;
+    box-shadow: 3px 3px 5px gray;
+}
+.about_uscomment h4 {
+    font-weight: bold;
+    margin-top: 35px;
+    margin-bottom: 18px;
+    margin-left: 10px;
+
+}
+.about_uscomment p {
+    font-size: 16px;
+    color: gray;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.about_us img {
+    border-radius: 5px;
+    width: 485px;
+}
+.join_us {
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 970px;
+    height: 260px;
+    box-shadow: 3px 3px 5px gray;
+}
+.join_uscomment h4 {
+    font-weight: bold;
+    margin-top: 35px;
+    margin-bottom: 18px;
+    margin-left: 10px;
+
+}
+.join_uscomment p {
+    font-size: 16px;
+    color: gray;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 270px;
+    width:auto;
+
+}
+.join_us img {
+    border-radius: 5px;
+    width: 480px;
+}
+footer {
+        background-image: url("./images/bg.png");
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+				width: 100%;
+}
+.footer1 p {
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+}
+#button {
+    background-color: white;
+    margin-top: 17px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 10px;
+    border-radius: 150px;
+    margin-left: 10px;
+    font-weight: bold;
+    border: none;
+}
+.footer2 {
+    margin-top: 20px;
+		width: 100%;
+}
+.footer2 p {
+    text-align: center;
+    color:white;
+    font-size: 8px;
+    padding: 8px;
+    border-top: white solid 1px;
+}
