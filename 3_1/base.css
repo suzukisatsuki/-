@@ -40,24 +40,29 @@ body {
 /* 上の部分は気にせずここから書く */
 #wrapper {
 	display: flex;
-	flex-wrap: wrap;
 	justify-content: center;
 }
 
 #box1 {
 	background-color: red;
 	width: 600px;
-	height: 100px;
+	height: 200px;
 	margin-left: 0 auto;
 }
 
 #box2 {
 	background-color: blue;
 	width: 600px;
-	height: 100px;
+	height: 200px;
 	margin-left: 0 auto;
 }
 
-@media screen and (max-width: 1500px){
-	#box1,#box2{width: 100%}
+@media screen and (min-width:0) and (max-width: 1000px){
+	#box1,#box2{
+		width: 100%
+	}
+	#wrapper {
+		display: flex;
+		flex-wrap: wrap;
+	}
 }
