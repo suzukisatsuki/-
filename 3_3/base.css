@@ -73,6 +73,11 @@ color: white;
 	line-height: 1.9;
 	color: white;
 }
+main {
+	background-color: #eaeaea;
+	width: 860px;
+	margin: 0 auto;
+}
 body {
 	background: #eaeaea;
 }
